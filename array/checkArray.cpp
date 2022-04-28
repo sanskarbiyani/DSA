@@ -16,7 +16,7 @@ bool checkRotatedAndSorted(int arr[], int n)
         if ((desc == 1 && arr[n - 1] < arr[0]) || (asc == 1 && arr[n - 1] > arr[0]))
         {
             // return false;
-            cout << "Inside.\n";
+            // cout << "Inside.\n";
             return true;
         }
         return false;
